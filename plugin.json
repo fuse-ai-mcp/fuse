@@ -11,5 +11,16 @@
   "homepage": "https://docs.fuseai.com/mcp/connect",
   "repository": "https://github.com/fuse-ai-mcp/fuse",
   "license": "MIT",
-  "keywords": ["fuse", "fuseai", "sales", "prospecting", "lead generation", "contact enrichment", "buying signals", "outreach", "email campaigns", "linkedin", "crm"]
+  "keywords": [
+    "fuse",
+    "sales",
+    "prospecting",
+    "lead-generation",
+    "contact-enrichment",
+    "buying-signals",
+    "outreach",
+    "email-campaigns",
+    "linkedin",
+    "crm"
+  ]
 }
