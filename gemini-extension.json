@@ -1,0 +1,11 @@
+{
+  "name": "fuse",
+  "version": "1.0.0",
+  "description": "Find prospects, enrich contacts, track buying signals and run email and LinkedIn outreach.",
+  "mcpServers": {
+    "fuse": {
+      "httpUrl": "https://mcp.fuseai.com"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

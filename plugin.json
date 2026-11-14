@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fuse",
+  "version": "1.0.0",
+  "description": "Find prospects, enrich contacts, track buying signals and run email and LinkedIn outreach from your AI assistant.",
+  "author": {
+    "name": "FuseAI",
+    "email": "support@fuseai.com",
+    "url": "https://fuseai.com"
+  },
+  "homepage": "https://docs.fuseai.com/mcp/connect",
+  "repository": "https://github.com/fuse-ai-mcp/fuse",
+  "license": "MIT",
+  "keywords": ["fuse", "fuseai", "sales", "prospecting", "lead generation", "contact enrichment", "buying signals", "outreach", "email campaigns", "linkedin", "crm"]
+}

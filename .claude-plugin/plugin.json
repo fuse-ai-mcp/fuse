@@ -1,0 +1,14 @@
+{
+  "name": "fuse",
+  "version": "1.0.0",
+  "description": "Find prospects, enrich contacts, track buying signals and run email and LinkedIn outreach from Claude.",
+  "author": {
+    "name": "FuseAI",
+    "email": "support@fuseai.com",
+    "url": "https://fuseai.com"
+  },
+  "homepage": "https://docs.fuseai.com/mcp/connect",
+  "repository": "https://github.com/fuse-ai-mcp/fuse",
+  "license": "MIT",
+  "keywords": ["sales", "prospecting", "enrichment", "buying-signals", "outreach", "crm"]
+}

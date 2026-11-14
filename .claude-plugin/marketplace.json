@@ -1,0 +1,14 @@
+{
+  "name": "fuseai",
+  "owner": {
+    "name": "FuseAI",
+    "email": "support@fuseai.com"
+  },
+  "plugins": [
+    {
+      "name": "fuse",
+      "source": "./",
+      "description": "Find prospects, enrich contacts, track buying signals and run email and LinkedIn outreach from Claude."
+    }
+  ]
+}
