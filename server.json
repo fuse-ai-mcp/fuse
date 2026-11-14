@@ -3,8 +3,12 @@
   "name": "com.fuseai/fuse",
   "title": "Fuse",
   "description": "Find prospects, enrich contacts, track buying signals and run email and LinkedIn outreach.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://fuseai.com",
+  "repository": {
+    "url": "https://github.com/fuse-ai-mcp/fuse",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
