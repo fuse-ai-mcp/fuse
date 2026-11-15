@@ -146,7 +146,7 @@ This repo holds configuration only. The server itself is hosted by Fuse.
 ## Support
 
 - Docs: https://docs.fuseai.com/mcp/connect
-- Email: support@fuseai.com
+- Email: dev@tryfuse.ai
 - [Privacy policy](https://fuseai.com/legal/privacy-policy) · [Terms of service](https://fuseai.com/legal/terms-of-service)
 
 ## License
