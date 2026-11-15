@@ -1,0 +1,21 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "fuse",
+  "displayName": "Fuse",
+  "version": "1.0.0",
+  "description": "Find prospects, enrich contacts with verified emails and phones, track buying signals, and run email and LinkedIn outreach from Antigravity.",
+  "logo": "assets/logo-square.png",
+  "suggestedPrompts": [
+    "Find US SaaS companies that raised a Series A in the last 30 days and get the Head of Sales at each",
+    "Build a list of 200 VPs of Marketing at London fintechs with 50-500 employees, with emails",
+    "Alert me when a target account posts a RevOps or sales ops job"
+  ],
+  "author": {
+    "name": "FuseAI",
+    "url": "https://fuseai.com"
+  },
+  "homepage": "https://docs.fuseai.com/mcp/connect",
+  "repository": "https://github.com/fuse-ai-mcp/fuse",
+  "license": "MIT",
+  "keywords": ["fuse", "sales", "prospecting", "lead-generation", "contact-enrichment", "buying-signals", "outreach", "linkedin", "crm"]
+}

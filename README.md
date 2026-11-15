@@ -94,7 +94,15 @@ Or add to `.vscode/mcp.json`:
 }
 ```
 
-### Gemini CLI / Antigravity CLI
+### Antigravity (App and CLI)
+
+```bash
+agy plugin install https://github.com/fuse-ai-mcp/fuse
+```
+
+The plugin adds the Fuse MCP server and skill. Sign in to Fuse in your browser when the server first connects.
+
+### Gemini CLI
 
 ```bash
 gemini extensions install https://github.com/fuse-ai-mcp/fuse
@@ -130,7 +138,8 @@ This repo holds configuration only. The server itself is hosted by Fuse.
 | `server.json` | Official MCP Registry entry |
 | `.claude-plugin/`, `.mcp.json` | Claude Code plugin and marketplace |
 | `plugin.json`, `mcp.json` | Agent Plugins format (Cursor, Kiro, Copilot) |
-| `gemini-extension.json`, `GEMINI.md` | Gemini CLI / Antigravity extension |
+| `.antigravity-plugin/`, `mcp_config.json` | Antigravity plugin (App and CLI) |
+| `gemini-extension.json`, `GEMINI.md` | Gemini CLI extension |
 | `skills/fuse/SKILL.md` | Skill that teaches agents how to use Fuse |
 | `llms-install.md` | Install steps for agents such as Cline |
 
