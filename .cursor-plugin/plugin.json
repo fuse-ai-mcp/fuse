@@ -1,0 +1,30 @@
+{
+  "name": "fuse",
+  "description": "Find prospects, enrich contacts with verified emails and phones, track buying signals, and run email and LinkedIn outreach from Cursor.",
+  "version": "1.0.0",
+  "author": {
+    "name": "FuseAI",
+    "email": "dev@tryfuse.ai"
+  },
+  "homepage": "https://docs.fuseai.com/mcp/connect",
+  "repository": "https://github.com/fuse-ai-mcp/fuse",
+  "license": "MIT",
+  "keywords": [
+    "fuse",
+    "sales",
+    "prospecting",
+    "lead-generation",
+    "contact-enrichment",
+    "buying-signals",
+    "outreach",
+    "linkedin",
+    "crm"
+  ],
+  "logo": "assets/logo-square.png",
+  "skills": "skills",
+  "mcpServers": {
+    "fuse": {
+      "url": "https://mcp.fuseai.com"
+    }
+  }
+}

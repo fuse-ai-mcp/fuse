@@ -137,6 +137,7 @@ This repo holds configuration only. The server itself is hosted by Fuse.
 |---|---|
 | `server.json` | Official MCP Registry entry |
 | `.claude-plugin/`, `.mcp.json` | Claude Code plugin and marketplace |
+| `.cursor-plugin/` | Cursor Marketplace plugin |
 | `plugin.json`, `mcp.json` | Agent Plugins format (Cursor, Kiro, Copilot) |
 | `.antigravity-plugin/`, `mcp_config.json` | Antigravity plugin (App and CLI) |
 | `gemini-extension.json`, `GEMINI.md` | Gemini CLI extension |
