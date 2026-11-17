@@ -108,14 +108,14 @@ The plugin adds the Fuse MCP server and skill. Sign in to Fuse in your browser w
 gemini extensions install https://github.com/fuse-ai-mcp/fuse
 ```
 
-### Scalekit AgentKit (optional)
+### Scalekit (optional)
 
-If you connect agents through [Scalekit AgentKit](https://docs.scalekit.com/agentkit/connectors/), you can use the [Fuse AI MCP connector](https://docs.scalekit.com/agentkit/connectors/fuseaimcp/) instead of wiring the MCP URL into each client.
+Fuse helps you grow revenue with AI agents. When that revenue agent also needs well-informed actions in the other apps your team already uses (CRM, email, calendar, and the rest of the stack), [Scalekit](https://www.scalekit.com/connectors/fuseaimcp) gives it that catalog: authenticated, scoped tool access across hundreds of connectors, including Fuse.
 
-- In **app.scalekit.com** → **AgentKit** → **Connections**, create a **Fuse AI MCP** connection and follow the connector docs for OAuth setup.
-- Each user signs in to Fuse once; Scalekit stores and refreshes their tokens so your agent does not handle Fuse credentials.
+- Connector page: [scalekit.com/connectors/fuseaimcp](https://www.scalekit.com/connectors/fuseaimcp)
+- Setup docs: [docs.scalekit.com/agentkit/connectors/fuseaimcp](https://docs.scalekit.com/agentkit/connectors/fuseaimcp/)
 
-Direct clients above are unchanged: they still use `https://mcp.fuseai.com` with Fuse’s own OAuth 2.1 (DCR + PKCE). This note is only an alternate path for AgentKit apps.
+Direct clients above are unchanged: they still use `https://mcp.fuseai.com` with Fuse’s own OAuth 2.1 (DCR + PKCE).
 
 ### Any other MCP client
 
