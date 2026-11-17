@@ -110,14 +110,7 @@ gemini extensions install https://github.com/fuse-ai-mcp/fuse
 
 ### Scalekit (optional)
 
-Fuse is how your revenue agent prospects, enriches, watches signals, and runs outreach in your own workspace. That story does not change.
-
-Scalekit is additive: when the same agent also needs well-informed actions in the other apps you already use (CRM, email, calendar, and the rest of the stack), Scalekit gives it that catalog next to Fuse, so the Fuse-powered revenue agent can go further without leaving your workflow.
-
-- [Fuse on Scalekit](https://www.scalekit.com/connectors/fuseaimcp)
-- [Setup docs](https://docs.scalekit.com/agentkit/connectors/fuseaimcp/)
-
-Direct clients above still use `https://mcp.fuseai.com` with Fuse’s own OAuth 2.1 (DCR + PKCE).
+To let the same revenue agent act in Fuse and in the other apps you already use (CRM, email, calendar, and the rest of the stack), connect via [Scalekit](https://www.scalekit.com/connectors/fuseaimcp). [Setup docs](https://docs.scalekit.com/agentkit/connectors/fuseaimcp/).
 
 ### Any other MCP client
 
