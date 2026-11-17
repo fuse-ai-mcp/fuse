@@ -110,7 +110,7 @@ gemini extensions install https://github.com/fuse-ai-mcp/fuse
 
 ### Scalekit (optional)
 
-Give your Fuse-powered revenue agent well-informed actions from the other apps you already use. [Scalekit](https://www.scalekit.com/connectors/fuseaimcp) supplies that catalog. [Setup docs](https://docs.scalekit.com/agentkit/connectors/fuseaimcp/).
+Give your Fuse-powered revenue agent well-informed actions from the other apps you already use. [Scalekit](https://www.scalekit.com/connectors) supplies that catalog. [Setup docs](https://docs.scalekit.com/agentkit/connectors/fuseaimcp/).
 
 ### Any other MCP client
 
