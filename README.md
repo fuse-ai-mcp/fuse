@@ -108,6 +108,17 @@ The plugin adds the Fuse MCP server and skill. Sign in to Fuse in your browser w
 gemini extensions install https://github.com/fuse-ai-mcp/fuse
 ```
 
+### Kimi Work
+
+In the Kimi Work desktop app, open a conversation and send:
+
+```text
+/plugin-builder
+Import the plugin in https://github.com/fuse-ai-mcp/fuse as a personal plugin.
+```
+
+Then open **Plugins → Personal**, install Fuse, and sign in to Fuse when it first connects.
+
 ### Any other MCP client
 
 Add a remote server with URL `https://mcp.fuseai.com` and transport Streamable HTTP. Leave authentication to OAuth: the client registers itself and opens a browser sign-in. Don't add an API key or `Authorization` header. Agents can follow [`llms-install.md`](llms-install.md).
@@ -141,6 +152,7 @@ This repo holds configuration only. The server itself is hosted by Fuse.
 | `plugin.json`, `mcp.json` | Agent Plugins format (Cursor, Kiro, Copilot) |
 | `.antigravity-plugin/`, `mcp_config.json` | Antigravity plugin (App and CLI) |
 | `gemini-extension.json`, `GEMINI.md` | Gemini CLI extension |
+| `kimi.plugin.json`, `locales/` | Kimi plugin (Kimi Work, Kimi Code) |
 | `skills/fuse/SKILL.md` | Skill that teaches agents how to use Fuse |
 | `llms-install.md` | Install steps for agents such as Cline |
 
