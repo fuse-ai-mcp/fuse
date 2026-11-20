@@ -1,0 +1,23 @@
+{
+  "displayName": "Fuse",
+  "shortDescription": "B2B 获客与外联",
+  "longDescription": "Fuse 是一个 AI 销售平台，已有 1,000 多家公司在使用。你可以在 8 亿多条人员和公司数据中搜索，从 40 多家数据供应商获取经过验证的工作邮箱和电话，追踪融资、职位变动、招聘和网站访客等购买信号，并起草邮件和 LinkedIn 外联序列。使用你的 Fuse 账号登录即可，提供免费套餐。所有消息在你确认之前都不会发送。",
+  "developerName": "FuseAI",
+  "tryPrompts": [
+    "帮我找 50 位美国 A 轮金融科技公司的销售副总裁，并获取他们的工作邮箱",
+    "本周有哪些公司完成了 B 轮融资？这些公司的决策人是谁？",
+    "给我的 Fintech VPs 列表起草一个 3 步邮件外联序列"
+  ],
+  "skillOverrides": {
+    "fuse": {
+      "displayName": "Fuse 获客助手",
+      "description": "在 Fuse 中按积分预算搜索与补全联系人、设置信号监控，并以草稿方式准备外联"
+    }
+  },
+  "mcpOverrides": {
+    "fuse": {
+      "displayName": "Fuse",
+      "description": "Fuse 的人员与公司搜索、联系方式补全、购买信号和外联活动工具"
+    }
+  }
+}

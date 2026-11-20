@@ -111,6 +111,16 @@ gemini extensions install https://github.com/fuse-ai-mcp/fuse
 ### Scalekit (optional)
 
 Give your Fuse-powered revenue agent well-informed actions from the other apps you already use. [Scalekit](https://www.scalekit.com/connectors) supplies that catalog. [Setup docs](https://docs.scalekit.com/agentkit/connectors/fuseaimcp/).
+### Kimi Work
+
+In the Kimi Work desktop app, open a conversation and send:
+
+```text
+/plugin-builder
+Import the plugin in https://github.com/fuse-ai-mcp/fuse as a personal plugin.
+```
+
+Then open **Plugins → Personal**, install Fuse, and sign in to Fuse when it first connects.
 
 ### Any other MCP client
 
@@ -145,6 +155,7 @@ This repo holds configuration only. The server itself is hosted by Fuse.
 | `plugin.json`, `mcp.json` | Agent Plugins format (Cursor, Kiro, Copilot) |
 | `.antigravity-plugin/`, `mcp_config.json` | Antigravity plugin (App and CLI) |
 | `gemini-extension.json`, `GEMINI.md` | Gemini CLI extension |
+| `kimi.plugin.json`, `locales/` | Kimi plugin (Kimi Work, Kimi Code) |
 | `skills/fuse/SKILL.md` | Skill that teaches agents how to use Fuse |
 | `llms-install.md` | Install steps for agents such as Cline |
 

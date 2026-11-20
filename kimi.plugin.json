@@ -1,0 +1,55 @@
+{
+  "$schema": "https://kimi.com/schemas/kimi.plugin.schema.json",
+  "name": "fuse",
+  "version": "1.0.0",
+  "description": "Find B2B prospects, enrich contacts with verified emails and phones, track buying signals and run email and LinkedIn outreach.",
+  "keywords": [
+    "fuse",
+    "sales",
+    "prospecting",
+    "lead-generation",
+    "contact-enrichment",
+    "buying-signals",
+    "outreach",
+    "linkedin",
+    "crm"
+  ],
+  "author": "FuseAI",
+  "homepage": "https://docs.fuseai.com/mcp/connect",
+  "license": "MIT",
+  "skillInstructions": "Load the fuse skill when the user wants to find prospects or companies, enrich contacts with emails or phone numbers, watch for buying signals, research an account, or create email or LinkedIn outreach. The tools come from the fuse MCP server, which signs the user in to their own Fuse account with OAuth and spends their Fuse credits.",
+  "interface": {
+    "displayName": "Fuse",
+    "shortDescription": "B2B leads & outreach",
+    "longDescription": "Fuse is an AI sales platform used by more than 1,000 companies. Search 800M+ people and companies, get verified work emails and phone numbers from 40+ data providers, track buying signals such as funding rounds, job changes, hiring and website visitors, and draft email and LinkedIn campaigns. Sign in with your Fuse account; a free plan is available. Nothing is sent without your approval.",
+    "developerName": "FuseAI",
+    "websiteURL": "https://fuseai.com",
+    "iconUrl": "https://raw.githubusercontent.com/fuse-ai-mcp/fuse/main/assets/logo-square.png",
+    "category": "PRODUCTIVITY",
+    "defaultLocale": "en-US",
+    "locales": "./locales/",
+    "tryPrompts": [
+      "Find 50 VPs of Sales at Series A fintech companies in the US and get their work emails",
+      "Which companies raised a Series B this week, and who are the decision makers there?",
+      "Draft a 3-step email campaign to my Fintech VPs list"
+    ],
+    "skillOverrides": {
+      "fuse": {
+        "displayName": "Fuse prospecting",
+        "description": "Credit-aware search, enrichment, signal monitors and draft-first outreach with Fuse"
+      }
+    },
+    "mcpOverrides": {
+      "fuse": {
+        "displayName": "Fuse",
+        "description": "Fuse tools for people and company search, enrichment, signals and campaigns"
+      }
+    }
+  },
+  "skills": ["./skills/fuse"],
+  "mcpServers": {
+    "fuse": {
+      "url": "https://mcp.fuseai.com"
+    }
+  }
+}
