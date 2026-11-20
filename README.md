@@ -108,6 +108,9 @@ The plugin adds the Fuse MCP server and skill. Sign in to Fuse in your browser w
 gemini extensions install https://github.com/fuse-ai-mcp/fuse
 ```
 
+### Scalekit (optional)
+
+Give your Fuse-powered revenue agent well-informed actions from the other apps you already use. [Scalekit](https://www.scalekit.com/connectors) supplies that catalog. [Setup docs](https://docs.scalekit.com/agentkit/connectors/fuseaimcp/).
 ### Kimi Work
 
 In the Kimi Work desktop app, open a conversation and send:
